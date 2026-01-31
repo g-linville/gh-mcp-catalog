@@ -1,4 +1,4 @@
-name: GitHub
+name: GitHub Remote with toolset header
 metadata:
   categories: Developer Tools
   unsupportedTools: create_or_update_file,push_files
