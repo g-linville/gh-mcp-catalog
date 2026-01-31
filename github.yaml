@@ -8,6 +8,7 @@ repoURL: https://github.com/github/github-mcp-server
 runtime: remote
 remoteConfig:
   hostname: https://api.githubcopilot.com/mcp
+  staticOAuthRequired: true
   headers:
   - name: MCP Toolsets
     description: Comma-separated list of toolsets to enable, e.g. "repos,issues". Full list: all, actions, code_security, dependabot, discussions, gists, git, issues, labels, notifications, orgs, projects, pull_requests, repos, secret_protection, security_advisories, stargazers, users, copilot, copilot_spaces, github_support_docs_search.
