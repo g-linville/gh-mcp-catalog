@@ -7,7 +7,7 @@ repoURL: https://github.com/github/github-mcp-server
 
 runtime: remote
 remoteConfig:
-  hostname: https://api.githubcopilot.com/mcp
+  fixedURL: https://api.githubcopilot.com/mcp
   staticOAuthRequired: true
   headers:
   - name: MCP Toolsets
